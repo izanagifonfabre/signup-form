@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/a72f11d7a8.js" crossorigin="anonymous"></script>
+    <title>Formulario estilizado</title>
+</head>
+<body>
+    <div class="login-form">
+        <section class="title">
+            <h3>Regístrate en nuestra página web</h3>
+        </section>
+        <section class="buttons">
+            <button class="google-btn">
+                <picture><img src="./assets/img/Logo-google-icon-PNG.png" alt=""></picture>
+                <span>Registrarse con Google</span>
+            </button>
+            <button class="twitter-btn">
+                <i class="fa-brands fa-twitter"></i>
+            </button>
+        </section>
+        <section class="separator">
+            <hr>
+            <span>O...</span>
+            <hr>
+        </section>
+        <section class="form-inputs">
+            <label for="name">
+                <span>Nombre:</span><input type="text" name="name" id="name">
+            </label>
+            <label for="username">
+                <span>Nombre de usuario:</span>
+                <input type="text" name="username" id="username">
+            </label>
+            <label for="email">
+                <span>Correo electrónico:</span>
+                <input type="email" name="email" id="email">
+            </label>
+            <label for="password">
+                <span>Contraseña:</span>
+                <input type="password" name="password" id="password" placeholder="+6 caracteres">
+            </label>
+            <label class="legals" for="legals">
+                <input type="checkbox" name="legals" id="legals">
+                <span>Crear una cuenta significa que estás de acuerdo con nuestros <span class="special">Términos de servicio</span>, <span class="special">Política de Privacidad</span>, y nuestros <span class="special">Ajustes de Notificaciones</span> por defecto</span>
+            </label>
+            <button type="submit" class="create-acc-btn">Crear Cuenta</button>
+        </section>
+    </div>
+</body>
+</html>
